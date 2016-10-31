@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../img/texture_bg.jpg") no-repeat center center;
+}
+
+.header-Bg {
+  background: #281D09;
+  color: #99855F;
+}
+
+.header-btnTextColor {
+  color: #000;
+}
+
+.mn-sec-postRow-Bg {
+  background: #99855F;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #281D09;
+}

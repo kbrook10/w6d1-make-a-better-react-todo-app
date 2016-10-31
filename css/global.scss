@@ -1,0 +1,39 @@
+$brownTemp: #281D09;
+$brownText: #99855F;
+$shadowBlack: 5px 5px 5px #000;
+$shadowTemp: 5px 5px 5px $brownTemp;
+
+*{
+    box-sizing: border-box;
+}
+
+//Generic Styling for main semantic headings
+img{
+    // width: 100%;
+    // box-shadow: $shadowBlack;
+}
+body{
+    background: url("../img/texture_bg.jpg") no-repeat center center;
+    // background-size: cover;
+    // background: lightgrey;
+}
+
+//Styling for the Header Section
+.header-Bg{
+    background: $brownTemp;
+    color: $brownText;
+}
+.header-btnTextColor{
+    color: #000;
+}
+
+//Styling for the Main Body Section
+.mn-sec-postRow-Bg{
+    background: $brownText;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: $shadowTemp;
+}
+
+//Styling for the Footer Section
